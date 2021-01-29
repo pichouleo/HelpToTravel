@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: #E2E2E2;
+
+}
+/* **************************NAVBAR*************************** */
+
+nav{
+    overflow: hidden;
+    background-color:#2E2E2E;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+}
+/* *************************IMAGE PRINCIPALE***************** */
+
+#imageprincipale {
+    padding-top: 60px;
+    background: url(background5.jpg) no-repeat  fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #E2E2E2;
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 4px 4px 3px  #2E2E2E;
+
+}
+#premiertrait {
+    height: 1px;
+    width: 25%;
+    margin:  auto;
+    background-color: black;
+    box-shadow: 1px 5px 3px #2E2E2E;
+
+}
+h3 {
+    text-align: center;
+    color:white ;
+    font-size: 2em;
+    background-color: #2E2E2E;
+    opacity: 0.8;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* *******************PRESENTATION**************** */
+#presentation {
+    background-color: #6E6E6E;
+    padding: 10px 0px 100px 0px;
+    
+}
+#textintro  {
+    padding: 0px 20%;
+    
+    
+}
+#textintro p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+#textintro h2 {
+    background-color: #2E2E2E;
+    padding: 10px;
+    
+    
+    
+    
+}
+#prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+
+}
+.imagesprestations h4 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesprestations img{
+    width: 300px;
+    height: 450px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;    
+    box-shadow: -5px 7px 6px 5px rgba(0,0,0,0.76);
+
+}
+.imagesprestations img:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+/* *********************TOURISM**************** */
+
+#tourisme {
+    height: 1800px;
+    background-color:#C6C6C6 ;
+    padding: 1px 2%;
+}
+#tourisme h2 {
+    padding-top: 30px;
+}
+
+#londres {
+    background: url(Londres.jpg);
+   
+    
+}
+
+#japan {
+    background: url(japan\ \(2\).jpg);
+   
+    
+}
+#maldives {
+    background: url(Maldives.jpg);
+    border: 30px;
+}
+#tourisme li {
+   margin: 100px 100px 50px 575px;
+    height: 226px;
+    width: 27%;
+    float: center;
+    box-shadow: 6px 6px 60px -1px rgba(0,0,0,0.76);
+    
+    
+}
+#tourisme p {
+    height: 45px;
+    width: 235px;
+    background-color:#323232 ;
+    color: white;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 6px 6px 10px 4px rgba(0,0,0,0.76);
+}
+#tourisme div {
+    margin: 0 50px 50px 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    
+   
+}
+hr {
+    
+    width: 50%;
+}
+ 
+#tourisme #japan p {
+    float: left;
+    margin-left: -180px;
+}
+    
+/* **********************FOOTER********************* */
+
+footer {
+    background-color: #323232;
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    
+}
+form {
+    margin: 0 auto;
+    max-width: 980px;
+    
+}
+
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family:'Advent Pro', sans-serif;
+    border-radius: 8px;
+
+    
+}
+textarea {
+    height: 120px;
+   
+
+}
+button{
+    font-size: 1.5em;
+    background-color: #B6B6B6;
+}
+button:hover {
+    background-color:#484848 ;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemetrait {
+    height: 1px;
+    width: 75%;
+    background-color: #cbcbcb;
+    margin: 60px auto;
+}
+#copyrightandicons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #C6C6C6;
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #C6C6C6;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
